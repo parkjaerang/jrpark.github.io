@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박재랑 | Web Publisher Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <script src="./portfolio.js" defer></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h1>박재랑 포트폴리오</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro" class="navLink">Intro</a></li>
+                <li><a href="#aboutMe" class="navLink">About Me</a></li>
+                <li><a href="#project" class="navLink">Project</a></li>
+                <li><a href="#skills" class="navLink">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="navDot"></div>
+    </header>
+    <!-- //header -->
+
+    <!-- main -->
+    <main>
+        <!-- intro -->
+        <section id="intro">
+            <h2>
+                디자인을 안정적인 코드 구조로 구현하는<br>
+                Web Publisher
+            </h2>
+            <p>HTML · CSS · JavaScript</p>
+        </section>
+        <!-- //intro -->
+
+        <!-- about me -->
+        <section id="aboutMe">
+            <h3>About Me</h3>
+            <div class="aboutMeWrap">
+                <div class="aboutMeLBox">
+                    <img src="./img/aboutMe.jpg" alt="웹 퍼블리셔 박재랑 프로필 사진">
+                </div>
+                <div class="aboutMeRBox">
+                    <h4>박재랑</h4>
+                    <p>구조적인 HTML 마크업과 유지보수를 고려한 CSS 설계를 바탕으로,
+                        안정적인 UI 구현을 지향하는 웹 퍼블리셔입니다.</p>
+                    <ul class="aboutList">
+                        <li>
+                            <h5 class="label">Birth</h5>
+                            <p class="data">2001.02.09</p>
+                        </li>
+                        <li>
+                            <h5 class="label">Phone</h5>
+                            <p class="data">010-7440-6443</p>
+                        </li>
+                        <li>
+                            <h5 class="label">Email</h5>
+                            <p class="data">
+                                <a href="mailto:jaelang7440@naver.com">jaelang7440@naver.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <h5 class="label">Education</h5>
+                            <p class="data">대구대학교 (AI학부)</p>
+                            <p class="data">SBS 아카데미 학원 8개월 수료</p>
+                        </li>
+                        <li>
+                            <h5 class="label">Study</h5>
+                            <p class="data">
+                                <a href="https://www.notion.so/html5-css3-jquery-javascript-2d0f2846a357800298f4c16b98cdeda8?source=copy_link"
+                                    target="_blank" rel="noopener noreferrer" class="notion">Notion</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- //about me -->
+
+        <!-- project -->
+        <section id="project">
+            <h3>Project</h3>
+            <div class="articleWrap">
+                <article class="newSource">
+                    <a href="https://clonens.dothome.co.kr" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/newSourceimg.png" alt="newsourcemag 클론 코딩 사이트 메인 화면 썸네일">
+                    </a>
+                    <h5>newsourcemag 클론 코딩</h5>
+                    <p>HTML / CSS / JS / 반응형</p>
+                    <p>작업 기여도: 퍼블리싱 100%</p>
+                    <p>구현 포인트</p>
+                    <ul class="implementation">
+                        <li>레이아웃 구조</li>
+                        <li>반응형 설계</li>
+                        <li>스크롤 인터랙션</li>
+                    </ul>
+                    <p>
+                        디자인과 레이아웃 구조가 명확해
+                        반응형 설계와 시멘틱 마크업을 중심으로
+                        퍼블리싱 역량을 강화하기 위해 클론 코딩을 진행했습니다.
+                    </p>
+
+                </article>
+                <article class="designsamsung">
+                    <a href="https://dsamsungclone.dothome.co.kr" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/designsamsung.png" alt="designsamsung 클론 코딩 사이트 메인 화면 썸네일">
+                    </a>
+                    <h5>designsamsung 클론 코딩</h5>
+                    <p>HTML / CSS / JS / 반응형</p>
+                    <p>작업 기여도: 퍼블리싱 100%</p>
+                    <p>구현 포인트</p>
+                    <ul class="implementation">
+                        <li>롤링 배너</li>
+                        <li>햄버거 메뉴</li>
+                        <li>스크롤 인터랙션</li>
+                    </ul>
+                    <p>롤링 배너와 다양한 JavaScript 인터랙션을 구현하며
+                        실무에서 자주 사용되는 동적 UI 로직을 연습하기에 적합하다고 판단하여
+                        해당 사이트를 클론 코딩 대상으로 선정했습니다.
+                    </p>
+                </article>
+                <article class="projectCollab">
+                    <img src="./img/Graduation_Project.png" alt="Graduation Project 썸네일">
+                    <h5>프로젝트 협업 경험</h5>
+                    <p>AI학부 졸업 작품 – 앱 제작 프로젝트 (프론트엔드 담당)</p><br>
+                    <a href="./Graduation_Project/Graduation_Project.pptx" download target="_blank" rel="noopener noreferrer">📎 PPT 다운로드</a>
+                    <p>
+                        대학 시절 여러 팀 프로젝트를 수행하며 팀원의 참여 부족 문제가 있었습니다.<br>
+                        프로젝트 지연을 막기 위해 조장을 자발적으로 맡아 역할을 명확히 분배하고,<br>
+                        일정 공유 및 진행 상황을 관리할 수 있는 체계를 도입했습니다.
+                    </p>
+                    <br>
+                    <p>
+                        이를 통해 소극적이던 팀원들도 자신이 맡은 업무를 책임감 있게 수행할 수 있도록 이끌었으며, 협업 과정에서의 문제 해결 능력과 커뮤니케이션 역량을 강화할 수 있었습니다.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <!-- //project -->
+
+        <!-- skills -->
+        <section id="skills">
+            <h3>Skills</h3>
+            <ul class="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>반응형 웹</li>
+                <li>웹 접근성</li>
+                <li>웹 표준</li>
+            </ul>
+        </section>
+        <!-- //skills -->
+
+    </main>
+    <!-- //main -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <p>© 2025 Park JaeRang</p>
+        <p>
+            <a href="mailto:jaelang7440@naver.com">
+                jaelang7440@naver.com
+            </a>
+        </p>
+    </footer>
+    <!-- //footer -->
+</body>
+
+</html>
