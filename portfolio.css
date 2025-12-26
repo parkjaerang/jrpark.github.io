@@ -36,6 +36,7 @@ h2 {
 
 h3 {
     font-size: 4.0rem;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -50,7 +51,7 @@ p {
     font-size: 1.6rem;
 }
 
-main section {
+main section,footer {
     padding: 0 100px;
 }
 
@@ -168,15 +169,21 @@ main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList h5{
     padding: 10px 0;
 }
 
-main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList p{
+main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .data{
     padding: 0 15%;
 }
 
-main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .notion{
-    display: block;
+main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .StudyWrap {
+    display: flex;
+    gap: 10px;
+    padding: 0 15%;
+}
+
+main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .StudyWrap .data{
     width: 15%;
-    text-align: center;
     height: auto;
+    display: inline-block;
+    text-align: center;
     padding: 2px 5px;
     background-color: #E6E7DF;
     color: #2A2A29;
@@ -198,15 +205,81 @@ main #project .articleWrap article {
 
 main #project .articleWrap article ul {
     display: flex;
-    
+    font-size: 1.6rem;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+main #project .articleWrap article ul li {
+    min-width: 130px;
+    padding: 3px 10px;
+    border-radius: 30px;
+    background-color: #E6E7DF;
+    color: #2A2A29;
+    text-align: center;
+    align-content: center;
 }
 
 main #project .articleWrap article img {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+main #project .articleWrap article h5{
+    margin: 10px 0;
+}
+
+main #project .articleWrap article p{
+    margin: 5px 0;
+}
+
+main #project .articleWrap article a{
+    font-size: 1.6rem;
+}
+
+main #project .articleWrap article .implementation{
+    margin-top: 15px;
+    font-size: 2.0rem;
+}
+
+main #project .articleWrap article .contribution{
+    font-size: 1.4rem;
 }
 /* //project */
 
 /* skills */
-/* main .skills {} */
+main #skills {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
 
+main #skills .skillList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+main #skills .skillList li {
+    width: 10%;
+    height: 50px;
+    min-width: 100px;
+    padding: 6px 14px;
+    background-color: #E6E7DF;
+    color: #2A2A29;
+    border-radius: 999px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+}
+
+main #skills .skillList li.active{
+    width: 100%;
+    transition: 1s;
+}
 /* //skills */
+
+/* footer */
+
+/* //footer */
